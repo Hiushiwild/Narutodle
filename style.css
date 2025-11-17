@@ -1,0 +1,62 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* En-tête */
+header {
+    background-color: #FF6600;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid #000;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Conteneur pour les cartes */
+.container-amis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* Style des cartes */
+.carte-ami {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.carte-ami h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 0;
+    border-bottom: 2px solid #FF6600;
+    padding-bottom: 10px;
+}
+
+/* Style pour le nom du personnage */
+.personnage {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #0056b3;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
