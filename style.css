@@ -2,7 +2,9 @@
 
 body {
     background-image: url('narutodle.jpg');    background-size: cover;
-    background-position: center center;
+    background-size: contain; /* <-- NOUVEAU : l'image entière sera visible */
+    background-repeat: no-repeat; /* NOUVEAU : ne répète pas l'image */
+    background-position: center bottom; /* NOUVEAU : centre horizontalement, colle en bas */
     background-attachment: fixed;
     background-color: #111;
     font-family: 'Roboto', sans-serif;
@@ -84,4 +86,5 @@ header p {
     align-items: center;
     justify-content: center;
     -webkit-font-smoothing: antialiased;
+
 }
